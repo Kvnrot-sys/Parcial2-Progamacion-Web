@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--WAOS-->
+
+    <header> 
+        <h1>2do Parcial</h1>
+    </header>
+
+    <section>
+
+
+
+        <article id="principal">
+            <p id="texto">Universidad</p>
+        </article>
+
+        <article id="contenido">
+
+            <label for="universidad">Ingresa una universidad</label>
+
+            <select name="universidades" id="universidades">
+                <option value="seleccione">Seleccione una universidad</option>
+                <option value="UNLAM">UNLAM</option>
+                <option value="UAI">UAI</option>
+                <option value="UNSAM">UNSAM</option>
+
+            </select>
+
+            <label for="color">Cambia el color de fondo</label>
+
+            <select name="colores" id="colores">
+                <option value="seleccione">Seleccione un color de fondo</option>
+                <option value="rojo">Rojo</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+            </select>
+
+
+            <label for="">Cambia el color de texto</label>
+
+            <div id="radio">
+                <input type="radio" name="colorbg" value="Blanco"  onchange="cambiarColor(this)">Blanco
+                <input type="radio" name="colorbg" value="Gris" onchange="cambiarColor(this)">Gris
+                <input type="radio" name="colorbg" value="Amarillo" onchange="cambiarColor(this)">Amarillo
+
+            </div>
+
+
+        </article>
+
+
+    </section>
+
+
+    <footer>
+
+
+
+        <h3>ROTELA KEVIN - 45285663</h3>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

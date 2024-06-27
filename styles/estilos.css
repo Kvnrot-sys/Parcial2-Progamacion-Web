@@ -1,0 +1,68 @@
+
+
+
+
+
+header{
+    text-align: left;
+    border-style: solid;
+    padding-left: 4%;}
+
+
+body{
+    min-height: 100vh;
+}
+
+
+#texto{
+    text-align: center;
+
+    margin-top: 0;
+}
+
+
+
+
+
+footer{
+
+    position: sticky;
+    text-align: center;
+    border-style: solid;
+    top: 100%;
+}
+
+
+
+#principal{
+
+    margin: 4em;
+    height: 50vh;
+    display: flex;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contenido{
+
+    margin: 4em;
+    height: 63vh;
+    display: grid;
+    border-style: solid;
+    padding: 1em;
+    justify-items: start;
+    justify-content: start;
+    align-content: space-evenly;
+    align-items: center;
+
+}
+
+
+section{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-style: solid;
+    height: 100vh;
+}
